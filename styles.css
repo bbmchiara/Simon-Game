@@ -1,0 +1,40 @@
+
+/*Cose che vorrei fare:
+- Inserire bordo chiaro attorno ai pulsanti (dello stesso colore del testo)*/
+
+
+
+body {
+  text-align: center;
+  background-color: #1e212d;
+  font-family: 'Reggae One', cursive;
+}
+
+.level {
+  font-size: 3rem;
+  padding: 70px;
+  padding-top: 20px;
+  font-family: 'Reggae One', cursive;
+  color: #faf3e0;
+}
+
+.row {
+  margin: 3% 30%;
+}
+
+.btn {
+  width: 200px;
+  max-width: 100%;
+  height: 100px;
+  max-height: 100%;
+  border-width: 5px;
+  border-color: #faf3e0;
+}
+
+.flash {
+  opacity: 0.3;
+}
+
+.game-over {
+  background-color: red;
+}
