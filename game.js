@@ -2,10 +2,6 @@
 https://app.diagrams.net/#G1GWV8czeN4FeglJTYKDCkz8FnWwDDfN8G*/
 
 
-/*Il problema da risolvere
-
-2- Graficamente resta evidenziato l'ultimo pulsante che ho premuto*/
-
 var userClickedPattern = [];
 var level = 1;
 var gamePattern = [];
@@ -13,7 +9,7 @@ var buttonColours = ["red", "blue", "green", "yellow"];
 var started = false;
 
 
-alert("Hi! Here is how the game works: \nthe web page will create a random sequence, your job is to remember it and reproduce it. \nIf you get it right the game will add one more element, and the sequence will get more difficult. \nOtherwise in ""Game Over""... fell free to play once again!"); 
+alert("Welcome! Here is how the game works: \nthe web page will create a random sequence, your job is to remember it and reproduce it from the first to the last element. \nIf you get it right the game will add one more element, and the sequence will get more difficult. \nOtherwise is ""Game Over""... fell free to play once again!"); 
       
 
 $(document).keypress(function() {
