@@ -9,7 +9,7 @@ var buttonColours = ["red", "blue", "green", "yellow"];
 var started = false;
 
 
-alert("Welcome! Here is how the game works: \nThe web page will create a random sequence, your job is to remember it and reproduce it from the first to the last element. \nIf you get it right the game will add one more element and the sequence will get more difficult, otherwise is Game Over... /nFell free to play once again!"); 
+alert("Welcome! Here is how the game works: \nThe web page will create a random sequence, your job is to remember it and reproduce it from the first to the last element. \nIf you get it right the game will add one more element and the sequence will get more difficult, otherwise is Game Over... \nFell free to play once again!"); 
       
 
 $(document).keypress(function() {
